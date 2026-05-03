@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Model files (these are large - don't push to GitHub)
+*.pkl
+*.joblib
+
+# Dataset files (too large for GitHub)
+*.csv
+*.xlsx
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
